@@ -1,0 +1,19 @@
+{
+  "name": "httpproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only ./Joanna.ts",
+    "dev": "ts-node-dev Joanna.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.0",
+    "node": "^20.7.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
